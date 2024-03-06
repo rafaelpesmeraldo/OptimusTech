@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_titulo {
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em;
+}
+
+.container_titulo:hover {
+    color: var(--vinho-escuro);
+}
+
+.lista_navbar {
+    list-style-type: none;
+    padding: 0 32px;
+    margin-left: 3%;
+    display: flex;
+}
+
+
+.opcao_link {
+    color: var(--cinza-claro);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1em;
+    position: relative;
+}
+
+.opcao_link:hover{
+    color: var(--vinho-escuro);
+}
+
+/* ANIMAÇÃO DA FAIXA DINAMICA */
+.opcao_link::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0.5em;
+    left: 0;
+    background-color: transparent;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.opcao_link:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: var(--vinho-escuro);
+}
+
+.botoes_cadastro {
+    display: flex;
+    margin-left: 30%;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.botao_login {
+    padding: 10px 18px;
+    margin-right: 20px;
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.botao_login:hover {
+    color: var(--vinho-escuro);
+}
+
+.botao_cadastro {
+    border: none;
+    background: var(--vinho-escuro);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    border-radius: 8px;
+    color: var(--branco);
+    padding: 10px 18px;
+    display: flex;
+}
+
+.botao_cadastro:hover {
+    color: var(--vinho-escuro);
+    background-color: #acacac;
+}
+
+/* PONTEIRO DE CLIQUE */
+.container_img:hover,
+.botao_login:hover,
+.botao_cadastro:hover,
+.container_titulo:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.depoimentos {
+    background-color: rgba(195, 25, 25, 0.03);
+    width: 78%;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 64px;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+}
+
+.depoimentos_titulo {
+    color: var(--vinho-escuro);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.depoimentos_subtitulo {
+    display: flex;
+    color: var(--preto);
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    white-space: pre;
+    align-items: center;
+    padding: 0 5em 0 5em;
+}
+
+.depoimentos_subtitulo:hover {
+    color: var(--vinho-escuro);
+}
+
+.julia_card {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    color: var(--preto);
+}
+
+.julia_nome {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.julia_funcao {
+    margin: 0;
+    font-size: 14px;
+    opacity: 60%;
+    font-weight: 400;
+}
+
+.julia_nome:hover,
+.julia_funcao:hover,
+.julia_img {
+    cursor: pointer;
+}

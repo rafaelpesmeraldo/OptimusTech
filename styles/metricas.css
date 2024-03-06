@@ -1,0 +1,38 @@
+.metricas {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 0px, 0px, 96px, 0px;
+}
+
+.metricas_container {
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.metricas_container_numero {
+    color: var(--vinho-escuro);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 0.5em;
+}
+
+.metricas_container_numero:hover {
+    color: #851212;
+}
+
+.metricas_container_titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
+.metricas_container_descricao {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    color: var(--cinza-claro);
+    font-weight: 400;
+}

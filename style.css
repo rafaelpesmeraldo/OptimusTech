@@ -1,0 +1,20 @@
+@import url(styles/header.css);
+@import url(styles/cabecalho.css);
+@import url(styles/metricas.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/formulário.css);
+
+:root {
+    --vinho-escuro: #8E2424;
+    --preto: #000000;
+    --cinza-claro: #667085;
+    --branco: #fff;
+    
+    --fonte-principal: "Inter";
+}
+
+body { 
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
