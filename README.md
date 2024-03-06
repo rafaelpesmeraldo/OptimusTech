@@ -22,4 +22,4 @@ A empresa de TI contratou este projeto com o objetivo de ter uma presença onlin
 
 ## 💡 Como Contribuir
 
-Se você gostaria de contribuir para este projeto, por favor, abra uma "issue" para discutir as mudanças que você gostaria de fazer. Ficaremos felizes em receber contribuições de qualquer tipo - desde correções de bugs até novos recursos!
+Se você gostaria de contribuir para este projeto, por favor, abra uma "issue" para discutir as mudanças que você gostaria de fazer. Ficarei feliz em receber contribuições de qualquer tipo - desde correções de bugs até novos recursos!
